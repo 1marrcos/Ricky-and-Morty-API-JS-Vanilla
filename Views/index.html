@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <title>RICK AND MORTY DATABASE</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-box">
+            <div class="container-form">
+                <p class="container-form_element" id="title">Rick and Morty API</p>
+                <input type="text" class="container-form_element" value="" placeholder="Ingresa un ID..." id="input-search">
+                <button onclick="search()" class="container-form_element" id="button-search">Press Me</button>
+            </div>
+        </div>
+        <div class="data">
+            <div class="data-section">
+                <p class="data-section_title">ID Number:</p>
+                <p class="data-section_info" id="character-id"></p>
+            </div>
+            <div class="data-section">
+                <p class="data-section_title">Name:</p>
+                <p class="data-section_info" id="character-name"></p>
+            </div>
+            <div class="data-section">
+                <img src="" alt="Image" id="character-image" class="data-section_image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
